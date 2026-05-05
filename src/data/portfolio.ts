@@ -2,19 +2,19 @@ export const portfolioData = {
   hero: {
     greeting: "👋 Hello, World!",
     name: "I'm Chirag\nBachwani",
-    bio: "Software Development Engineer with over 2+ years of full-stack production experience spanning mobile, backend, and cloud infrastructure.",
+    bio: "SDE-2 at Galaxy.ai with 3+ years of full-stack production experience spanning mobile, backend, and cloud infrastructure — scaling apps to 250K+ installs.",
     roles: [
-      "Software Engineer",
-      "Flutter Developer",
-      "Full Stack Engineer",
+      "Fullstack Developer",
+      "Senior Mobile Developer",
+      "Flutter Expert",
       "AI Integrations",
     ],
     resumeUrl:
       "https://drive.google.com/drive/folders/1J0oodz4RTR-N2jbuDLCsBzvtJ2Z3FKJU",
   },
   stats: [
-    { number: "2+", label: "Years\nExperience" },
-    { number: "4", label: "Companies\nWorked At" },
+    { number: "3+", label: "Years\nExperience" },
+    { number: "5", label: "Companies\nWorked At" },
     { number: "200+", label: "DSA Problems\nSolved" },
     { number: "8.43", label: "CGPA\nB.Tech CSE" },
   ],
@@ -199,24 +199,40 @@ export const portfolioData = {
   experience: [
     {
       company: "Galaxy.ai",
-      role: "Software Development Engineer",
-      period: "Feb'25 – Present",
+      role: "Software Development Engineer – 2 (SDE-2)",
+      period: "May'26 – Present",
       description:
-        "• Scaled application to 250K+ installs across Play Store and App Store, supporting rapid feature expansion and reliability.\n• Integrated 4,500+ tools by designing a dynamic configuration architecture, enabling server-driven UI rendering and zero-update feature launches.\n• Forked and extended the Clerk Flutter package - adding hydration-aware loading states and exponential backoff for API calls, achieving zero critical production issues.\n• Led mobile release planning end-to-end, conducted code reviews, and orchestrated a GitHub Actions AI bot for automated PR reviews and auto-fixes.",
+        "• Promoted to SDE-2 for exceptional contributions in scaling the platform to 250K+ installs and driving zero-downtime releases.\n• Leading mobile architecture decisions, mentoring junior engineers, and driving cross-functional feature delivery.\n• Spearheading performance optimization initiatives — reducing app startup time, memory footprint, and maintaining 99%+ crash-free sessions.\n• Owning end-to-end release management and CI/CD pipeline improvements across Play Store and App Store.",
+      tags: ["Flutter", "Architecture", "Leadership", "Performance"],
+    },
+    {
+      company: "Galaxy.ai",
+      role: "Software Development Engineer – 1 (SDE-1)",
+      period: "Jun'25 – May'26",
+      description:
+        "• Scaled application to 250K+ installs across Play Store and App Store, supporting rapid feature expansion and reliability.\n• Integrated 4,500+ tools by designing a dynamic configuration architecture, enabling server-driven UI rendering and zero-update feature launches.\n• Forked and extended the Clerk Flutter package — adding hydration-aware loading states and exponential backoff for API calls, achieving zero critical production issues.\n• Led mobile release planning end-to-end, conducted code reviews, and orchestrated a GitHub Actions AI bot for automated PR reviews and auto-fixes.",
       tags: ["Flutter", "Play Store", "CI/CD", "Clerk"],
+    },
+    {
+      company: "Galaxy.ai",
+      role: "SDE Intern",
+      period: "Feb'25 – May'25",
+      description:
+        "• Contributed to scaling Galaxy.ai from early growth to mass adoption, supporting product and release operations.\n• Helped improve application stability through crash monitoring, memory analysis, and performance optimizations.",
+      tags: ["Flutter", "Crashlytics", "Dart"],
     },
     {
       company: "SparkStart Solutions & Saarthi AI",
       role: "Full Stack Developer",
-      period: "May’24 – Jan’25",
+      period: "May'24 – Jan'25",
       description:
-        "• Architected and built Collabify (Flutter + Node.js) at SparkStart, onboarding 500+ beta users in 4 weeks.\n• Engineered normalized database schema with Node.js APIs at Saarthi AI, targeting 1,000+ users.\n• Deployed and managed AWS infrastructure - Cognito, Elastic Beanstalk, S3, CodePipeline, SNS/SES - shrinking deployment time from 30 min to <5 min.\n• Sustaining 99.9% uptime and <250 ms API latency with 98% test coverage. Integrated Firebase OTP auth, Razorpay, and Google Maps.",
+        "• Architected and built Collabify (Flutter + Node.js) at SparkStart, onboarding 500+ beta users in 4 weeks.\n• Engineered normalized database schema with Node.js APIs at Saarthi AI, targeting 1,000+ users.\n• Deployed and managed AWS infrastructure — Cognito, Elastic Beanstalk, S3, CodePipeline, SNS/SES — shrinking deployment time from 30 min to <5 min.\n• Sustaining 99.9% uptime and <250 ms API latency with 98% test coverage. Integrated Firebase OTP auth, Razorpay, and Google Maps.",
       tags: ["Flutter", "Node.js", "AWS", "MongoDB"],
     },
     {
       company: "Reway Technologies",
       role: "Mobile & Backend Developer Intern",
-      period: "Jul’23 – Dec’23",
+      period: "Jul'23 – Dec'23",
       description:
         "• Spearheaded end-to-end development of Reway E-waste App using Flutter, Firebase, and Google Cloud APIs, launching a production-ready application with 15+ core features in 6 months.\n• Built a scalable backend with Dart and Firebase for user registration, e-waste listing, and recycler matching, serving 5,000 users.\n• Achieved a 4.9/5 Play Store rating through a user-friendly interface connecting consumers and recyclers.",
       tags: ["Flutter", "Firebase", "Google Cloud APIs", "Dart"],
@@ -236,6 +252,6 @@ export const portfolioData = {
     "1st Runner-up, GeeksforGeeks Interview Contest.",
     "Solved 200+ data structures and algorithms problems on LeetCode.",
     "Secured top 10 positions in 3 major offline hackathons.",
-    "Over 2+ years of full-stack production experience spanning 4 companies.",
+    "Over 3+ years of full-stack production experience spanning 5 companies.",
   ],
 };
