@@ -3,6 +3,7 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import LenisProvider from "@/components/LenisProvider";
 import CustomCursor from "@/components/CustomCursor";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const spaceGrotesk = Space_Grotesk({
@@ -115,6 +116,7 @@ export default function RootLayout({
           <CustomCursor />
           {children}
         </LenisProvider>
+        <Analytics />
       </body >
     </html>
   );
