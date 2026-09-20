@@ -74,7 +74,7 @@ export default function CustomCursor() {
         }}
         animate={{
           scale: isHovered ? 1.5 : 1,
-          backgroundColor: isHovered ? "rgba(255, 255, 255, 0.1)" : "transparent",
+          backgroundColor: isHovered ? "rgba(255, 255, 255, 0.1)" : "rgba(0, 0, 0, 0)",
           borderColor: isHovered ? "rgba(255, 255, 255, 0)" : "rgba(255, 255, 255, 0.5)",
         }}
         transition={{ type: "tween", ease: "backOut", duration: 0.3 }}
