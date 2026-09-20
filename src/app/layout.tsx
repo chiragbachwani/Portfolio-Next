@@ -14,13 +14,13 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL('https://chiragbachwani.dev'),
   title: {
-    default: "Chirag Bachwani | Fullstack & Senior Mobile Developer",
+    default: "Chirag Bachwani | Product Engineer",
     template: "%s | Chirag Bachwani",
   },
-  description: "Chirag Bachwani — SDE-2 at Galaxy.ai with 3+ years of production experience building high-performance mobile apps with Flutter, scalable backends with Node.js & AWS, and modern web experiences with Next.js. 250K+ app installs, 4,500+ AI tool integrations, 99%+ crash-free rate.",
+  description: "Chirag Bachwani — Product engineer at Galaxy.ai building reliable AI products across mobile, backend, cloud infrastructure, and modern web experiences. 250K+ app installs, 4,500+ AI tool integrations, 99%+ crash-free rate.",
   keywords: [
     "Chirag Bachwani", "Chirag Bachwani portfolio", "Chirag Bachwani developer",
-    "Fullstack Developer", "Senior Mobile Developer", "Flutter Developer", "Flutter Expert",
+    "Product Engineer", "Full-stack Engineer", "Flutter Developer", "AI Product Engineer",
     "SDE-2 Galaxy AI", "Top Mobile Developer India", "Hire Flutter Developer",
     "React Native Developer", "Next.js Developer", "Node.js Developer",
     "Software Engineer India", "Full Stack Engineer", "Mobile App Developer",
@@ -38,15 +38,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://chiragbachwani.dev",
-    title: "Chirag Bachwani | Fullstack & Senior Mobile Developer",
-    description: "SDE-2 at Galaxy.ai — 3+ years building Flutter apps at scale (250K+ installs), Node.js backends, and AWS cloud infrastructure. Open to new opportunities.",
+    title: "Chirag Bachwani | Product Engineer",
+    description: "Product engineer at Galaxy.ai building reliable AI products across mobile, backend, and cloud infrastructure. Open to new opportunities.",
     siteName: "Chirag Bachwani — Developer Portfolio",
-    images: [{ url: "/images/pfp.jpg", width: 1200, height: 630, alt: "Chirag Bachwani — Fullstack & Senior Mobile Developer" }],
+    images: [{ url: "/images/pfp.jpg", width: 1200, height: 630, alt: "Chirag Bachwani — Product Engineer" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chirag Bachwani | Fullstack & Senior Mobile Developer",
-    description: "SDE-2 at Galaxy.ai — Flutter, Node.js & AWS. 250K+ installs, 4,500+ AI tools integrated. Open to work.",
+    title: "Chirag Bachwani | Product Engineer",
+    description: "SDE-2 at Galaxy.ai — Flutter, Node.js, AWS, and AI product systems. 250K+ installs, 4,500+ AI tools integrated.",
     images: ["/images/pfp.jpg"],
   },
   robots: {
@@ -71,10 +71,12 @@ const jsonLd = {
   sameAs: [
     "https://www.linkedin.com/in/chiragbachwani/",
     "https://github.com/chiragbachwani",
-    "https://www.instagram.com/chirag_bachwani/"
+    "https://www.instagram.com/chirag_bachwani/",
+    "https://medium.com/@bachwani620",
+    "https://topmate.io/chirag_bachwani"
   ],
-  jobTitle: "SDE-2, Fullstack & Senior Mobile Developer",
-  description: "Software Development Engineer with 3+ years of experience building high-performance mobile apps, scalable backends, and cloud infrastructure. Currently SDE-2 at Galaxy.ai.",
+  jobTitle: "SDE-2, Product Engineer",
+  description: "Product engineer with 3+ years of experience building reliable AI products across mobile apps, scalable backends, and cloud infrastructure. Currently SDE-2 at Galaxy.ai.",
   worksFor: {
     "@type": "Organization",
     "name": "Galaxy.ai",
@@ -87,7 +89,7 @@ const jsonLd = {
   ],
   knowsAbout: [
     "Flutter", "Dart", "Node.js", "Express.js", "Mobile App Development",
-    "Full Stack Development", "Next.js", "React", "AWS", "Firebase",
+    "Product Engineering", "AI Product Development", "Full Stack Development", "Next.js", "React", "AWS", "Firebase",
     "CI/CD", "REST APIs", "MongoDB", "PostgreSQL", "Docker"
   ],
   homeLocation: {

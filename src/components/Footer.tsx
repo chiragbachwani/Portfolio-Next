@@ -9,6 +9,8 @@ export default function Footer() {
   const socials = [
     { name: "LinkedIn", url: portfolioData.contact.linkedin },
     { name: "GitHub", url: portfolioData.contact.github },
+    { name: "Medium", url: portfolioData.contact.medium },
+    { name: "Topmate", url: portfolioData.contact.topmate },
     { name: "Instagram", url: portfolioData.contact.instagram },
   ];
 

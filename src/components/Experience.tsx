@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { portfolioData } from "@/data/portfolio";
 
-const ExperienceCard = ({ exp, index }: { exp: any; index: number }) => {
+const ExperienceCard = ({ exp }: { exp: (typeof portfolioData.experience)[number] }) => {
   const cardRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: cardRef,
@@ -91,7 +91,7 @@ export default function Experience() {
 
           <div className="relative z-10">
             {portfolioData.experience.map((exp, index) => (
-              <ExperienceCard key={index} exp={exp} index={index} />
+              <ExperienceCard key={index} exp={exp} />
             ))}
           </div>
         </div>

@@ -19,7 +19,7 @@ export default function Hero() {
   return (
     <section
       ref={ref}
-      className="relative h-screen w-full flex flex-col justify-center items-center overflow-hidden px-6 md:px-12"
+      className="relative min-h-[100dvh] w-full flex flex-col justify-center items-center overflow-hidden px-6 py-24 md:px-12"
     >
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[60vw] bg-white/5 rounded-full blur-[120px] pointer-events-none" />
@@ -29,12 +29,12 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-gray-400 text-lg md:text-xl mb-6 font-mono tracking-widest uppercase"
+          className="text-gray-400 text-sm md:text-base mb-6 font-mono tracking-[0.24em] uppercase"
         >
           {portfolioData.hero.greeting}
         </motion.p>
 
-        <h1 className="text-6xl md:text-8xl lg:text-[140px] font-bold tracking-tighter leading-none mb-10 font-display">
+        <h1 className="text-6xl md:text-8xl lg:text-[clamp(5rem,11vw,8.75rem)] font-bold tracking-[-0.07em] leading-[0.9] mb-10 font-display text-balance">
           <AnimatedText text={portfolioData.hero.name.replace("\n", " ")} delay={0.5} />
         </h1>
 
@@ -44,7 +44,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 1.2 }}
           className="max-w-2xl text-center mb-12"
         >
-          <p className="text-gray-300 text-lg md:text-2xl font-light leading-relaxed">
+          <p className="text-gray-300 text-lg md:text-2xl font-light leading-relaxed text-balance">
             {portfolioData.hero.bio}
           </p>
         </motion.div>
@@ -53,12 +53,12 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.5 }}
-          className="flex flex-wrap justify-center gap-4"
+          className="flex flex-wrap justify-center gap-3"
         >
           {portfolioData.hero.roles.map((role, i) => (
             <span
               key={i}
-              className="px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md text-sm md:text-base"
+              className="px-4 py-2 rounded-full border border-white/10 bg-white/[0.04] backdrop-blur-md text-sm md:text-base text-white/80"
             >
               {role}
             </span>

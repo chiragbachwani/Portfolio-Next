@@ -2,12 +2,12 @@ export const portfolioData = {
   hero: {
     greeting: "👋 Hello, World!",
     name: "I'm Chirag\nBachwani",
-    bio: "SDE-2 at Galaxy.ai with 3+ years of full-stack production experience spanning mobile, backend, and cloud infrastructure — scaling apps to 250K+ installs.",
+    bio: "Product engineer at Galaxy.ai building AI-powered products across mobile, backend, and cloud systems — shipping reliable experiences used by 250K+ installs.",
     roles: [
-      "Fullstack Developer",
-      "Senior Mobile Developer",
-      "Flutter Expert",
-      "AI Integrations",
+      "Product Engineer",
+      "Full-stack Systems",
+      "Flutter & Frontend",
+      "AI Product Systems",
     ],
     resumeUrl:
       "https://drive.google.com/drive/folders/1J0oodz4RTR-N2jbuDLCsBzvtJ2Z3FKJU",
@@ -42,7 +42,7 @@ export const portfolioData = {
       ],
     },
     {
-      category: "Mobile",
+      category: "Product Engineering",
       skills: [
         { name: "Animations", level: 0.85 },
         { name: "State Management (BLoC, GetX)", level: 0.9 },
@@ -243,6 +243,8 @@ export const portfolioData = {
     github: "https://github.com/chiragbachwani",
     linkedin: "https://www.linkedin.com/in/chiragbachwani/",
     instagram: "https://www.instagram.com/chirag_bachwani/",
+    medium: "https://medium.com/@bachwani620",
+    topmate: "https://topmate.io/chirag_bachwani",
     tagline: "Let's Build Something\nAmazing Together",
     subtext:
       "I'm currently open to new opportunities. If you have a project in mind or just want to say hi, drop me a message!",
@@ -253,5 +255,19 @@ export const portfolioData = {
     "Solved 200+ data structures and algorithms problems on LeetCode.",
     "Secured top 10 positions in 3 major offline hackathons.",
     "Over 3+ years of full-stack production experience spanning 5 companies.",
+  ],
+  writing: [
+    {
+      type: "Medium essay",
+      title: "AI Agents Are Becoming Workflow Systems — So Reliability Becomes the Product",
+      description: "What developers should design after the demo works.",
+      href: "https://medium.com/@bachwani620/ai-agents-are-becoming-workflow-systems-so-reliability-becomes-the-product-319d3879e77b",
+    },
+    {
+      type: "Medium essay",
+      title: "What Four Startups Taught Me About Ownership, Architecture, and Reliability",
+      description: "Practical lessons from building across early-stage teams and production systems.",
+      href: "https://medium.com/@bachwani620/what-four-startups-taught-me-about-ownership-architecture-and-reliability-875c7801dc5f",
+    },
   ],
 };

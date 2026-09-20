@@ -20,7 +20,7 @@ export default function AbstractBackground() {
         }}
       />
 
-      {/* Floating Gradient Orbs */}
+      {/* Restrained ambient light: one cool accent keeps the page atmospheric without competing with the work. */}
       <motion.div
         animate={{
           x: [0, 80, 0, -80, 0],
@@ -32,7 +32,7 @@ export default function AbstractBackground() {
           repeat: Infinity,
           ease: "linear",
         }}
-        className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] rounded-full bg-purple-900/20 blur-[130px]"
+        className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] rounded-full bg-sky-950/20 blur-[130px]"
       />
       
       <motion.div
@@ -46,7 +46,7 @@ export default function AbstractBackground() {
           repeat: Infinity,
           ease: "linear",
         }}
-        className="absolute bottom-[-10%] right-[-10%] w-[60vw] h-[60vw] rounded-full bg-blue-900/15 blur-[150px]"
+        className="absolute bottom-[-10%] right-[-10%] w-[60vw] h-[60vw] rounded-full bg-slate-900/30 blur-[150px]"
       />
 
       <motion.div
@@ -59,7 +59,7 @@ export default function AbstractBackground() {
           repeat: Infinity,
           ease: "linear",
         }}
-        className="absolute top-[30%] left-[40%] w-[40vw] h-[40vw] rounded-full bg-indigo-900/15 blur-[120px]"
+        className="absolute top-[30%] left-[40%] w-[40vw] h-[40vw] rounded-full bg-cyan-950/10 blur-[120px]"
       />
       
       {/* Subtle Center Glow */}
@@ -73,7 +73,7 @@ export default function AbstractBackground() {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[60vw] rounded-full bg-violet-900/10 blur-[150px]"
+        className="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[60vw] rounded-full bg-slate-900/20 blur-[150px]"
       />
     </div>
   );

@@ -3,8 +3,20 @@
 import { useEffect, useState } from "react";
 import { MoveRight } from "lucide-react";
 
+type ContributionDay = {
+  contributionCount: number;
+  date: string;
+};
+
+type ContributionData = {
+  weeks: Array<{ contributionDays: ContributionDay[] }>;
+  totalContributions: number;
+  currentStreak: number;
+  longestStreak: number;
+};
+
 export default function GithubActivity() {
-  const [data, setData] = useState<any>(null);
+  const [data, setData] = useState<ContributionData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -60,7 +72,7 @@ export default function GithubActivity() {
               {/* Native Graph Representation identical to previous Flutter App */}
               <div className="w-full overflow-x-auto pb-6 scrollbar-hide">
                 <div className="flex gap-[4px] min-w-max justify-start md:justify-center">
-                  {data.weeks?.map((week: any, wIdx: number) => (
+                  {data.weeks.map((week, wIdx) => (
                     <div key={wIdx} className="flex flex-col gap-[4px]">
                       {/* Enforce exactly 7 days visually */}
                       {Array.from({ length: 7 }).map((_, dIdx) => {

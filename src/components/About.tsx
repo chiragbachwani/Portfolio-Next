@@ -33,7 +33,7 @@ export default function About() {
               A bit about me.
             </h2>
             <p className="text-gray-400 text-lg md:text-xl max-w-2xl leading-relaxed md:leading-loose">
-              {portfolioData.hero.bio} Implemented robustly focusing on extremely high standards in architecture, fluid interactions, and deep hardware optimization. My philosophy is that the technology stack exists purely to enable jaw-dropping, intuitive user experiences.
+              I work across product surfaces, service boundaries, and cloud infrastructure — turning ambiguous ideas into reliable systems people can use without a manual. My best work sits where thoughtful product decisions meet careful engineering: fast feedback loops, calm releases, and experiences that feel obvious.
             </p>
           </motion.div>
           
@@ -85,7 +85,7 @@ export default function About() {
               viewport={{ once: true, margin: "-10%" }}
               className="text-3xl md:text-4xl font-display font-medium text-white/50 mb-12 font-mono tracking-widest uppercase"
             >
-              Technical Arsenal
+              Product Engineering Stack
             </motion.h3>
 
             <div className="flex flex-col gap-12">

@@ -6,6 +6,7 @@ import GithubActivity from "@/components/GithubActivity";
 import Achievements from "@/components/Achievements";
 import Footer from "@/components/Footer";
 import AbstractBackground from "@/components/AbstractBackground";
+import Writing from "@/components/Writing";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
+      <Writing />
       <GithubActivity />
       <Experience />
       <Achievements />

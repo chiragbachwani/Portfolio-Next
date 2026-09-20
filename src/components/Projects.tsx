@@ -7,7 +7,9 @@ import Image from "next/image";
 import MagneticButton from "./MagneticButton";
 import { MoveUpRight } from "lucide-react";
 
-const ProjectGridCard = ({ project }: { project: any }) => {
+type Project = (typeof portfolioData.projects)[number];
+
+const ProjectGridCard = ({ project }: { project: Project }) => {
   // Use maximum of 4 images so the fan-out is distinct and beautiful
   const images = project.images.slice(0, 4);
   const N = images.length;
